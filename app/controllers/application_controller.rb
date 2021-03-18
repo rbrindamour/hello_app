@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
     render html: "¡Hello World!"    
   end
   def goodbye
-    render html: "Goodbye, World!"    
+    render html: "Goodbye, World! after new commit"    
   end
 end
